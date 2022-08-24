@@ -37,7 +37,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Billions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDK-NY-6lh">
-                                        <rect key="frame" x="64" y="32" width="47.5" height="17"/>
+                                        <rect key="frame" x="64" y="32" width="47.5" height="16"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="16" id="xMO-wn-wIA"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                         <color key="textColor" name="contactTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -78,7 +81,7 @@
     <resources>
         <image name="person" width="133" height="133"/>
         <namedColor name="contactTextColor">
-            <color red="0.31" green="0.31" blue="0.31" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.31000000238418579" green="0.31000000238418579" blue="0.31000000238418579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
