@@ -37,11 +37,11 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Billions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDK-NY-6lh">
-                                        <rect key="frame" x="64" y="32" width="47.5" height="16"/>
+                                        <rect key="frame" x="64" y="32" width="45" height="16"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="16" id="xMO-wn-wIA"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                         <color key="textColor" name="contactTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -54,8 +54,8 @@
                                     <constraint firstAttribute="height" constant="56" id="Wui-e3-eXl"/>
                                     <constraint firstItem="ogd-28-YS4" firstAttribute="top" secondItem="qIu-b0-Gvp" secondAttribute="top" constant="8" id="XX2-c8-ggp"/>
                                     <constraint firstItem="IDK-NY-6lh" firstAttribute="top" secondItem="ogd-28-YS4" secondAttribute="bottom" id="fHQ-q8-lB7"/>
-                                    <constraint firstItem="OQd-id-utZ" firstAttribute="leading" secondItem="qIu-b0-Gvp" secondAttribute="leading" constant="8" id="oAO-Nj-Irp"/>
                                     <constraint firstItem="ogd-28-YS4" firstAttribute="leading" secondItem="OQd-id-utZ" secondAttribute="trailing" constant="16" id="xYc-0y-LeW"/>
+                                    <constraint firstItem="OQd-id-utZ" firstAttribute="leading" secondItem="qIu-b0-Gvp" secondAttribute="leading" constant="8" id="yDT-gx-PtH"/>
                                 </constraints>
                             </view>
                         </subviews>
